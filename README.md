@@ -3,7 +3,7 @@
 
 
 // Example of using APIManager to perform a request
-  Task {
+  **Task {
       do {
           let data = try await APIManager.shared.performRequest(endpoint: "your-endpoint")
           // Process the data
@@ -11,4 +11,4 @@
       } catch {
           print("Error performing request:", error)
       }
-  }
+  }**
